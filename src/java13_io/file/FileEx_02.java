@@ -22,6 +22,8 @@ public class FileEx_02 {
 		File file2 = new File(
 				"./src/java13_io/file"
 				,"Hello");
-				
+		System.out.println(file2.length());
+		System.out.println(file2.exists());
+		
 	}
 }
